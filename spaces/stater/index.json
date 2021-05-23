@@ -1,0 +1,22 @@
+{
+    "name": "Stater", // Name of your space (max 20 chars)
+    "network": "1", // What network you are on? (if on Ethereum it is "1", for other check: https://docs.snapshot.page/networks)
+    "symbol": "STR", // Your main token symbol 
+    "skin": "your-space", // Copy skin filename "example.scss" located at "/skins" folder and renaming it to "your-space.scss"
+    "strategies": [ // Strategies
+      {
+        "name": "erc20-balance-of", // Strategy name
+        "params": { // Strategy parameters
+          "address": "0x84bb947fcedba6b9c7dcead42df07e113bb03007", // Address of the base token
+          "symbol": "STR", // Symbol of the base token
+          "decimals": 18 // Decimals of the base token
+        }
+      }
+    ],
+    "members": [ // List of official addresses that can post in "Core" tab of the space
+      "0xB1B5e6f997afc2BD344b443bD8d8DA2de032c943",
+      "0x4d0a0B45820440BD59a54248fB96C8ab20280399",
+      "0x710261c24E5809f47B74096942625329db9a46b6",
+      "0x156757d109E3D0D1b4d1e7C6d608D1DE8F837F6a"
+    ]
+  }
